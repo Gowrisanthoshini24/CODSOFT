@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 20px;
+        }
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .column {
+            width: calc(100% / 3);
+            float: left;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .column img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Landing Page</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <div class="container">
+            <h2>Welcome to our Landing Page</h2>
+            <p>This is an ideal web development project for beginners. It requires basic knowledge of HTML and CSS.</p>
+            <p>Through this project, you'll learn to create columns, divide sections, arrange items, and add headers and footers.</p>
+            <p>Be mindful of CSS to avoid overlapping elements. In short, a landing page project allows you to apply HTML and CSS skills, encouraging your creativity while ensuring a visually appealing and user-friendly design.</p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="column">
+                <img src="service1.jpg" alt="Service 1">
+                <h3>Service 1</h3>
+                <p>Description of Service 1</p>
+            </div>
+            <div class="column">
+                <img src="service2.jpg" alt="Service 2">
+                <h3>Service 2</h3>
+                <p>Description of Service 2</p>
+            </div>
+            <div class="column">
+                <img src="service3.jpg" alt="Service 3">
+                <h3>Service 3</h3>
+                <p>Description of Service 3</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
